@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="550dp"
+    tools:context=".fragment2"
+    >
+
+    <ImageView
+        android:id="@+id/photo2"
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+        android:layout_gravity="top|center"
+        android:src="@drawable/vaccine2" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="170dp"
+        android:fontFamily="@font/bold"
+        android:text="Daily Vaccine Schedule"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Vaccine doses are available every weekday, and make sure you miss getting the first dose"
+        android:fontFamily="@font/poppins"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="70dp"
+        />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="10dp"
+        android:layout_gravity="bottom|center"
+        android:background="@drawable/corners"
+        style="@style/style3"
+        android:layout_marginBottom="40dp"
+        />
+    <TextView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/corners"
+        style="@style/style"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="165dp"
+        />
+    <TextView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_gravity="bottom|right"
+        android:background="@drawable/corners"
+        style="@style/style"
+        android:layout_marginRight="165dp"
+        android:layout_marginBottom="40dp"
+        />
+
+</FrameLayout>
